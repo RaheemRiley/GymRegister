@@ -1,0 +1,238 @@
+ /* #region NAVBAR DESIGN */
+ nav {
+   margin: auto;
+   width: 100%;
+ }
+
+ .nav-link {
+   font-weight: bolder;
+ }
+
+ .container-fluid .navbar-brand,
+ .container-fluid .navbar-text {
+   color: rgba(0, 153, 255, 0.555);
+ }
+
+ .nav-link:hover {
+   text-decoration: underline;
+ }
+
+ .navbar-collapse .nav-link,
+ .navbar-collapse .navbar-text {
+   color: white;
+ }
+ /* #endregion */
+
+
+ /* IMAGENES */
+ /* #region FONDO DE PANTALLA */
+ .imagen {
+   background-image: url('https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGd5bXxlbnwwfHwwfHx8Mg%3D%3D');
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   justify-content: center;
+   height: 100vh;
+ }
+ /* #endregion */
+
+ /* #region SPINNING */
+ #spinning {
+   background-image: url('https://images.unsplash.com/photo-1637633716870-3460aa785ff4?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z3ltJTIwc3Bpbm5pbmclMjBjbGFzc3xlbnwwfHwwfHx8Mg%3D%3D');
+   background-position: center;
+   justify-content: center;
+   filter: grayscale(100%);
+   -webkit-transition: .3s ease-in-out;
+   transition: .3s ease-in-out;
+ }
+
+ #spinning:hover {
+   filter: grayscale(0);
+   transform: scale(1.1);
+   color: white;
+ }
+
+ /* #endregion */
+ /* #region PILATES */
+ #pilates {
+   background-image: url('https://images.unsplash.com/photo-1552196563-55cd4e45efb3?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGd5bSUyMHBpbGF0ZXMlMjBjbGFzc3xlbnwwfHwwfHx8Mg%3D%3D');
+   background-position: center;
+   justify-content: center;
+   filter: grayscale(100%);
+   -webkit-transition: .3s ease-in-out;
+   transition: .3s ease-in-out;
+ }
+
+ #pilates:hover {
+   filter: grayscale(0);
+   transform: scale(1.1);
+   color: white;
+ }
+
+ /* #endregion */
+ /* #region NATACION */
+ #natacion {
+   background-image: url('https://images.unsplash.com/photo-1572594505398-97a384b34ec8?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGd5bSUyMHN3aW1taW5nfGVufDB8fDB8fHwy');
+   background-position: center;
+   justify-content: center;
+   filter: grayscale(100%);
+   -webkit-transition: .3s ease-in-out;
+   transition: .3s ease-in-out;
+ }
+
+ #natacion:hover {
+   filter: grayscale(0);
+   transform: scale(1.1);
+   color: white;
+ }
+
+ /* #endregion */
+ /* #region BODYBUILDING */
+ #bodybuilding {
+   background-image: url('https://images.unsplash.com/photo-1534368270820-9de3d8053204?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGJvZHlidWlsJTIwZGVhZGxpZnR8ZW58MHx8MHx8fDI%3D');
+   background-position: center;
+   justify-content: center;
+   filter: grayscale(100%);
+   -webkit-transition: .3s ease-in-out;
+   transition: .3s ease-in-out;
+ }
+
+ #bodybuilding:hover {
+   filter: grayscale(0);
+   transform: scale(1.1);
+   color: white;
+ }
+
+ /* #endregion */
+
+/* #region PHOTOS TEXT DESIGN */
+ .title {
+   position: absolute;
+   bottom: 0;
+   color: #f1f1f1;
+   width: 100%;
+   transition: .5s ease;
+   opacity: 0;
+   color: white;
+   font-size: 20px;
+   padding: 20px;
+   text-align: center;
+ }
+
+ .circ:hover .title {
+   opacity: 1;
+ }
+
+ .circ {
+   text-align: center;
+   font-size: 20px;
+   font-weight: bold;
+   cursor: pointer;
+ }
+/* #endregion */
+
+ /*#region EFECTO FONDO OSCURO */
+ .over {
+   position: absolute;
+   bottom: 0;
+   top: 0;
+   background: rgba(0, 0, 0, 0.5);
+   width: 100%;
+ }
+
+ .imagen .over {
+   opacity: 1;
+ }
+ /* #endregion */
+
+ /*#region DIV 3 COLUMNS */
+
+ .all {
+   display: flex;
+   justify-content: center;
+   height: 92%;
+ }
+
+ .left,
+ .right {
+   width: 30%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+
+ .circ {
+   border-radius: 50%;
+   width: 200px;
+   height: 200px;
+   margin: auto;
+ }
+
+ .center {
+   width: 40%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ /* #endregion */
+
+ /*FORM*/
+ /* #region FORM */
+ .contenido {
+   position: absolute;
+   background-color: #ffffff;
+   width: 35%;
+   padding: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   box-shadow: rgb(0, 153, 255) 0px 7px 29px 0px;
+   border-radius: 5px;
+ }
+
+
+ /* FORM DESIGN  */
+
+ input {
+   width: 100%;
+   border-radius: 5px;
+   border-width: thin;
+   padding: 4px 0px 0px 10px;
+ }
+
+ input:hover {
+   border: 2px solid greenyellow;
+ }
+
+ p {
+   font-size: 20px;
+   text-align: center;
+ }
+
+ label {
+   padding-top: 15px;
+ }
+
+ p,
+ label,
+ a {
+   font-weight: bolder;
+ }
+
+ /* BUTTON  */
+ input[type=submit] {
+   width: 100%;
+   background-color: black;
+   color: white;
+   padding: 4px;
+   margin: 15px 0;
+   border-radius: 4px;
+   cursor: pointer;
+   font-weight: bold;
+ }
+
+ input[type=submit]:hover {
+   background-color: #ffffff;
+   color: black;
+   border: 2px solid greenyellow;
+ }
+ /* #endregion */
